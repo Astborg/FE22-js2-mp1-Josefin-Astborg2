@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sten Sax Påse</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/stensaxpåse.jfif" alt="">
+        <form><label>Namn: </label><input id="input" type="text">
+        <input type=submit id="namnBtn"></input>
+        <div id="div"></div></form>
+    
+        <h2>Datorns val: <span id="datorn"></span></h2> <h1 id="d-poäng">0</h1>
+        <h2>Mitt val: <span id="mitt"></span></h2><h1 id="m-poäng">0</h1>
+        <h2>Resultat: <span id="resultat"></span></h2>
+        <h1 id="vunnit"></h1>
+        <div>
+            <button id="sten">Sten</button>
+            <button id="sax">Sax</button>
+            <button id="påse">Påse</button>
+        </div>  
+        <div><p id="output"></p></div>
+        <div onclick="startaOm()" id="button"></div>
+        <div id="highscore-list">
+            
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
